@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page_galeria.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.filtro_scalagrises {
+    filter: grayscale(100%);
+}
+.filtro_sepia {
+    filter: sepia(100%);
+}
+.filtro_contraste {
+    filter: contrast(150%);
+}
+.filtro_brillo {
+    filter: brightness(150%);
+}
+.filtro_invert {
+    filter: invert(100%);
+}
+.filtro_saturacion {
+    filter: saturate(150%);
+}
+.filtro_opacidad {
+    filter: opacity(0.25);
+}
+body main section {
+    background-color: transparent;
+}
+.filtro_blur {
+    filter: blur(1px);
+}
+.filtro_sombra {
+    filter: drop-shadow(5px 5px 3px gray);
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Galeria</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="practicas.html">Practicas</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <table width="100%%" border="0" cellspacing="10" class="tabla_galeria">
+      <tbody>
+        <tr>
+          <td><img src="../medios/imagenes/sisters-2210314_640.jpg" alt="" width="640" height="425" class="img_galeria filtro_scalagrises filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/christmas-photo-2037892_640.jpg" alt="" width="640" height="372" class="img_galeria filtro_sepia filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/sisters-2210314_640.jpg" alt="" width="640" height="425" class="img_galeria filtro_contraste filtro_sombra"/></td>
+        </tr>
+        <tr>
+          <td><img src="../medios/imagenes/christmas-photo-2037892_640.jpg" alt="" width="640" height="372" class="img_galeria filtro_brillo filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/family-1023036_640.jpg" alt="" width="640" height="408" class="img_galeria filtro_invert filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/christmas-photo-2037892_640.jpg" alt="" width="640" height="372" class="img_galeria filtro_saturacion filtro_sombra"/></td>
+        </tr>
+        <tr>
+          <td><img src="../medios/imagenes/family-1023036_640.jpg" alt="" width="640" height="408" class="img_galeria filtro_opacidad filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/sisters-2210314_640.jpg" alt="" width="640" height="425" class="img_galeria filtro_blur filtro_sombra"/></td>
+          <td><img src="../medios/imagenes/family-1023036_640.jpg" alt="" width="640" height="408" class="img_galeria filtro_sombra"/></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Yaret Elsa Ruiz Morales</h6>
+</footer>
+</body>
+</html>
